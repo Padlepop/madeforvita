@@ -6,10 +6,10 @@ const applySettingsButton = document.getElementById('applySettings');
 let settings = {
     music: 'music/hbdmusic1.mp3',
     countdown: 3,
-    matrixText: 'HAPPYBIRTHDAY',
+    matrixText: 'HAPPYBIRTHDAY SAYANG',
     matrixColor1: '#ff69b4', // Màu pink mẫu
     matrixColor2: '#ff1493', // Màu pink mẫu
-    sequence: 'HAPPY|BIRTHDAY|TO|VITALIA|❤',
+    sequence: 'HAPPY|BIRTHDAY|SAYANG|❤',
     sequenceColor: '#ff69b4', // Màu pink mẫu
     gift: './image/happy3.gif',
     enableBook: true,
@@ -25,7 +25,7 @@ let settings = {
         // --- Lembar 2 (data-page="1") ---
         { 
             image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
-            content: 'Happy Birthday Vita' 
+            content: 'Happy Birthday Sayang' 
         },
         { 
             image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
@@ -36,7 +36,7 @@ let settings = {
     image: './image/theend.jpg',
     content: `Di hari ulang tahunmu ini, semoga semua luka pelan-pelan menemukan sembuhnya.
 
-dan hidup yang lebih bahagia untukmu.`
+dan hidup yang lebih bahagia untukmu sayaangkuu.`
 }
     ],
     enableBook: true,
@@ -351,7 +351,7 @@ function initializeDefaultSettings() {
     matrixText: 'HAPPYBIRTHDAY',
     matrixColor1: '#B30000', // ? Maroon agak terang agar efek cahayanya keluar
     matrixColor2: '#800000', // ? Maroon standar untuk variasi kedalaman
-    sequence: 'HAPPY|BIRTHDAY|TO|VITALIA',
+    sequence: 'HAPPY|BIRTHDAY|SAYANG',
     sequenceColor: '#ffffff', // ? Set ke putih untuk sinkronisasi sistem
     gift: './image/happy3.gif',
     enableBook: true,
@@ -370,7 +370,7 @@ function initializeDefaultSettings() {
             // --- Lembar 2 (data-page="1") ---
             { 
                 image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
-                content: 'Happy Birthday Vita' 
+                content: 'Happy Birthday Sayangkuu' 
             },
             { 
                 image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
